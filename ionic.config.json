@@ -1,0 +1,7 @@
+{
+  "name": "morellis-food-ordering",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
