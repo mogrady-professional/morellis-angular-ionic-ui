@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { IonicModule } from '@ionic/angular';
+
+import { DetailsPageRoutingModule } from './details-routing.module';
+
+import { DetailsPage } from './details.page';
 // import { DirectivesModule } from '../directives/shared/directives.module';
 
 @NgModule({
@@ -12,9 +14,9 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    DetailsPageRoutingModule,
     // DirectivesModule,
   ],
-  declarations: [HomePage],
+  declarations: [DetailsPage],
 })
-export class HomePageModule {}
+export class DetailsPageModule {}
